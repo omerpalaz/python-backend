@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import request
 
-# This is for GitHub.
 app = Flask(__name__)
 
 @app.route('/')
